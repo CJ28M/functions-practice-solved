@@ -66,7 +66,6 @@ logMessageWithMyName("Andrey");
 
 // Your code goes here...
 function logMyInfo(name, age) {
-  // const message = `My name is ${name}. I am ${age} years old!`;
   console.log(`My name is ${name}. I am ${age} years old!`);
 }
 
