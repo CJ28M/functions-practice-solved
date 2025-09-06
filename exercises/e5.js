@@ -11,7 +11,6 @@
  */
 
 // Your code goes here...
-let num = 20;
 
 function getDiffTwentySeven(num) {
   return num <= 27 ? 27 - num : 2 * (num - 27);
@@ -25,11 +24,9 @@ function getDiffTwentySeven(num) {
  */
 
 // Your code goes here
-let num1;
-let num2;
 
 function sumOfTwoIntegers(num1, num2) {
-  return (totalSum = num1 + num2);
+  return num1 === num2 ? 3 * (num1 + num2) : num1 + num2;
 }
 
 /** =========================
@@ -42,6 +39,10 @@ function sumOfTwoIntegers(num1, num2) {
  */
 
 // Your code goes here...
+
+function isOneOfThemOrTheirSumIsFourty(num1, num2) {
+  return num1 === 40 || num2 === 40 || num1 + num2 === 40;
+}
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-5"
